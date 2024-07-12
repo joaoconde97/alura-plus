@@ -4,7 +4,7 @@
     --branco-principal: #ffff;
     --cinza-secundaria: #c0c0c0;
     --botao-azul: #167BF7;
-    --cor-de-fundo: #000000;
+    --cor-de-fundo: #00030c;
     --fonte-inter-sans: "Inter", sans-serif;
 }
 
@@ -20,6 +20,7 @@ body {
 }
 
 .inicio {
+    height: 100vh;
     background-image: url(/assets/Background.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,7 +29,6 @@ body {
 }
 
 .container1 {
-    height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
 }
@@ -87,4 +87,41 @@ body {
 .container2 {
     align-items: center;
     margin: 0 15em;
+}
+
+.container2__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 0.1em;
+}
+
+.container2__texto {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cinza-secundaria);
+    margin-bottom: 1em;
+    margin-right: 3em;
+}
+
+.container2__botao {
+    display: inline-block;
+}
+
+.rodape__titulo {
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+.container__rodape {
+    display: flex;
+    justify-content: center;
+    gap: 69px;
+    margin-bottom: 1.5em;
+    list-style-type: none;
+}
+
+.container__rodape__item {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
 }
