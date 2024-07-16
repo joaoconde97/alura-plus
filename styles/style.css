@@ -31,6 +31,7 @@ body {
 .container1 {
     display: grid;
     grid-template-columns: 50% 50%;
+    padding-bottom: 11em;
 }
 
 .container1__titulo {
@@ -107,12 +108,20 @@ body {
     display: inline-block;
 }
 
-.rodape__titulo {
+.rodape__img__logo {
+    margin-bottom: 3em;
+}
+
+.container5 {
+    padding-bottom: 8em;
+}
+
+.lista__titulo {
     text-align: center;
     margin-bottom: 1.5em;
 }
 
-.container__rodape {
+.container__lista {
     display: flex;
     justify-content: center;
     gap: 69px;
@@ -120,8 +129,48 @@ body {
     list-style-type: none;
 }
 
-.container__rodape__item {
+.container__item {
     text-align: center;
     font-size: 32px;
     font-weight: 700;
 }
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    margin-bottom: 5em;
+}
+
+.rodape li {
+    list-style-type: none;
+}
+
+.rodape__links {
+    display: flex;
+    gap: 36px;
+    margin-bottom: 1em;
+}
+
+.rodape__links__item {
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--branco-principal);
+}
+
+.rodape__links__item:hover {
+    color: var(--cinza-secundaria);
+}
+
+.rodape__texto {
+    width: 80%;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--cinza-secundaria);
+    margin: auto;
+    margin-bottom: 1em;
+    
+}
+
