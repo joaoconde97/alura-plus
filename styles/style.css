@@ -49,6 +49,11 @@ body {
     margin-bottom: 1em;
 }
 
+.container1__botao__azul:hover {
+    color: black;
+    background-color: rgb(122, 194, 241);
+}
+
 .container1__botao {
     text-decoration: none;
     color: var(--branco-principal);
@@ -57,6 +62,12 @@ body {
     border-radius: 5px;
     display: block;
     margin-bottom: 1em;
+}
+
+.container1__botao:hover {
+    color: black;
+    background-color: rgb(179, 179, 179);
+    border: 2px solid black
 }
 
 .texto__botao {
